@@ -57,4 +57,4 @@ let person: HumanAndStudent = {name: "munna", institute: "MU"}
 
 ```
 
-<h3>Intersection useকরার সময় আমরা এভাবে করতে পারি। এটা অনেকটা and এর মতো কাজ করে, এই example এর ক্ষেত্রে আমরা HumanAndStudent এ শুধু name দিলেই হবে না সাথে institute ও দিতে হবে |<h3>
+<h3>Intersection use করার সময় আমরা এভাবে করতে পারি। এটা অনেকটা and এর মতো কাজ করে, এই example এর ক্ষেত্রে আমরা HumanAndStudent এ শুধু name দিলেই হবে না সাথে institute ও দিতে হবে |<h3>
