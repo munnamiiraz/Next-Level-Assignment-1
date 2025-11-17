@@ -10,7 +10,6 @@ const formatValue = (value: string | number | boolean) : (string | number | bool
   }
 }
 
-
 const getLength = <T>(value: string | T[]): number => {
   if (typeof value === 'string') {
     return value.length;
@@ -32,9 +31,10 @@ class Person {
   }
 
   getDetails(): string {
-    return `Name: ${this.name}, Age: ${this.age}`
+    return `'Name: ${this.name}, Age: ${this.age}'`
   }
 }
+
 
 
 type BookType = {
