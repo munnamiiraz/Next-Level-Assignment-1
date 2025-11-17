@@ -24,7 +24,7 @@ getVal(me, "name");
 
 ```
 
-<h3>এখন আমরা চাইলে যেকোন Student টাইপের object ব্যাবহার করতে চাইলে আমরা এভাবে করতে পারি। এভাবে করলে আমরা এমন properties use করতে পারবোনা জেটা exist করে না|<h3>
+<h4>এখন আমরা চাইলে যেকোন Student টাইপের object ব্যাবহার করতে চাইলে আমরা এভাবে করতে পারি। এভাবে করলে আমরা এমন properties use করতে পারবোনা যেটা exist করে না|<h4>
 
 
 
@@ -37,7 +37,7 @@ value = 42
 value = 'hi'
 ```
 
-<h3>union use করার সময় আমরা এভাবে করতে পারি। এটা অনেকটা or এর মতো কাজ করে, এই example এর ক্ষেত্রে value হয়ত number হবে অথবা string হবে। একসাথে দুইটা হবে না।<h3>
+<h4>union use করার সময় আমরা এভাবে করতে পারি। এটা অনেকটা or এর মতো কাজ করে, এই example এর ক্ষেত্রে value হয়ত number হবে অথবা string হবে। একসাথে দুইটা হবে না।<h4>
 
 
 <h2>Intersection এর example<h2>
@@ -57,4 +57,4 @@ let person: HumanAndStudent = {name: "munna", institute: "MU"}
 
 ```
 
-<h3>Intersection useকরার সময় আমরা এভাবে করতে পারি। এটা অনেকটা and এর মতো কাজ করে, এই example এর ক্ষেত্রে আমরা HumanAndStudent এ শুধু name দিলেই হবে না সাথে institute ও দিতে হবে |<h3>
+<h4>Intersection useকরার সময় আমরা এভাবে করতে পারি। এটা অনেকটা and এর মতো কাজ করে, এই example এর ক্ষেত্রে আমরা HumanAndStudent এ শুধু name দিলেই হবে না সাথে institute ও দিতে হবে |<h4>
