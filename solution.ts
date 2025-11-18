@@ -36,14 +36,13 @@ class Person {
 }
 
 
-
 type BookType = {
   title: string;
   rating: number;
 }
 
 const filterByRating = (books: BookType[]): BookType[] => {
-  return books.filter((book) => book.rating >= 4)
+  return books.filter((book) => book.rating >= 4.0)
 }
 
 
@@ -102,7 +101,6 @@ const getUniqueValues = (array1: (number | string)[], array2: (number | string)[
   }
   return arr;
 }
-
 
 interface Product {
   name: string,
